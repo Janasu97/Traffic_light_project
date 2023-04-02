@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-02 17:57:46 by Eclipse SUMO sumo Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\radwanska_crossing_act.net.xml"/>
+        <route-files value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\networkGenerations\demand_12_13\demand_12_13_5.xml"/>
+        <additional-files value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\additional.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\statistics/real_summary.xml"/>
+        <person-summary-output value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\statistics/real_personsummary.xml"/>
+        <tripinfo-output value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\statistics/real_tripinfo.xml"/>
+    </output>
+
+    <traci_server>
+        <remote-port value="64378"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="300.00" id="loop_S_N" nVehContrib="1" flow="12.00" occupancy="23.42" speed="0.11" harmonicMeanSpeed="0.11" length="5.00" nVehEntered="2"/>
+    <interval begin="300.00" end="600.00" id="loop_S_N" nVehContrib="1" flow="12.00" occupancy="23.96" speed="0.05" harmonicMeanSpeed="0.05" length="5.00" nVehEntered="0"/>
+    <interval begin="600.00" end="900.00" id="loop_S_N" nVehContrib="1" flow="12.00" occupancy="33.91" speed="0.08" harmonicMeanSpeed="0.08" length="5.00" nVehEntered="2"/>
+    <interval begin="900.00" end="1200.00" id="loop_S_N" nVehContrib="7" flow="84.00" occupancy="86.58" speed="4.80" harmonicMeanSpeed="0.12" length="5.00" nVehEntered="6"/>
+    <interval begin="1200.00" end="1500.00" id="loop_S_N" nVehContrib="2" flow="24.00" occupancy="44.98" speed="2.54" harmonicMeanSpeed="0.07" length="5.00" nVehEntered="2"/>
+    <interval begin="1500.00" end="1800.00" id="loop_S_N" nVehContrib="4" flow="48.00" occupancy="49.28" speed="2.96" harmonicMeanSpeed="0.14" length="5.00" nVehEntered="4"/>
+    <interval begin="1800.00" end="2100.00" id="loop_S_N" nVehContrib="5" flow="60.00" occupancy="54.17" speed="4.93" harmonicMeanSpeed="0.15" length="5.00" nVehEntered="5"/>
+    <interval begin="2100.00" end="2400.00" id="loop_S_N" nVehContrib="1" flow="12.00" occupancy="52.46" speed="0.05" harmonicMeanSpeed="0.05" length="5.00" nVehEntered="2"/>
+</detector>

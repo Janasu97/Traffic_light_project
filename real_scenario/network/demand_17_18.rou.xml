@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-10-20 12:47:12 by Eclipse SUMO netedit Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\radwanska_crossing_act.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\radwanska_crossing_act.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\demands_bckp\demand_17_18.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <flow id="flow_0" begin="0.00" from="SM2" to="M2M" end="3600.00" vehsPerHour="477.01"/>
+    <flow id="flow_1" begin="0.00" from="SM2" to="M2E" end="3600.00" vehsPerHour="167.00"/>
+    <flow id="flow_10" begin="0.00" from="WM1" to="M2M" end="3600.00" vehsPerHour="101.00"/>
+    <flow id="flow_11" begin="0.00" from="EM2" to="M1W" end="3600.00" vehsPerHour="361.99"/>
+    <flow id="flow_12" begin="0.00" from="EM2" to="M1S" end="3600.00" vehsPerHour="223.01"/>
+    <flow id="flow_13" begin="0.00" from="EM2" to="M2M" end="3600.00" vehsPerHour="87.00"/>
+    <flow id="flow_2" begin="0.00" from="SM2" to="M1W" end="3600.00" vehsPerHour="90.00"/>
+    <flow id="flow_3" begin="0.00" from="SM2" to="M1S" end="3600.00" vehsPerHour="50.00"/>
+    <flow id="flow_4" begin="0.00" from="NM" to="M1S" end="3600.00" vehsPerHour="841.91"/>
+    <flow id="flow_5" begin="0.00" from="NM" to="M1W" end="3600.00" vehsPerHour="144.00"/>
+    <flow id="flow_6" begin="0.00" from="NM" to="M2E" end="3600.00" vehsPerHour="80.00"/>
+    <flow id="flow_7" begin="0.00" from="NM" to="M2M" end="3600.00" vehsPerHour="26.00"/>
+    <flow id="flow_8" begin="0.00" from="WM1" to="M2E" end="3600.00" vehsPerHour="169.00"/>
+    <flow id="flow_9" begin="0.00" from="WM1" to="M1S" end="3600.00" vehsPerHour="74.00"/>
+    <personFlow id="personFlow_0" begin="0.00" end="3600.00" personsPerHour="150.00">
+        <walk from="M2M" to="SM2"/>
+    </personFlow>
+    <personFlow id="personFlow_1" begin="0.00" end="3600.00" personsPerHour="75.00">
+        <walk from="SM2" to="M2M"/>
+    </personFlow>
+    <personFlow id="personFlow_2" begin="0.00" end="3600.00" personsPerHour="90.00">
+        <walk from="NM" to="M1S"/>
+    </personFlow>
+    <personFlow id="personFlow_3" begin="0.00" end="3600.00" personsPerHour="60.00">
+        <walk from="M1S" to="NM"/>
+    </personFlow>
+    <personFlow id="personFlow_4" begin="0.00" end="3600.00" personsPerHour="200.00">
+        <walk from="M2E" to="WM1"/>
+    </personFlow>
+    <personFlow id="personFlow_5" begin="0.00" end="3600.00" personsPerHour="100.00">
+        <walk from="WM1" to="M2E"/>
+    </personFlow>
+    <personFlow id="personFlow_6" begin="0.00" end="3600.00" personsPerHour="67.00">
+        <walk from="EM2" to="M1W"/>
+    </personFlow>
+    <personFlow id="personFlow_7" begin="0.00" end="3600.00" personsPerHour="50.00">
+        <walk from="M1W" to="EM2"/>
+    </personFlow>
+</routes>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-12-10 21:53:34 by Eclipse SUMO GUI Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\radwanska_crossing_act.net.xml"/>
+        <route-files value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\demand_17_18.rou.xml"/>
+        <additional-files value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\additional.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="network\statistics/2_1_summary.xml"/>
+        <person-summary-output value="network\statistics/personsummary.xml"/>
+        <tripinfo-output value="network\statistics/2_1_tripinfo.xml"/>
+    </output>
+
+    <traci_server>
+        <remote-port value="52516"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<instantE1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/instant_e1_file.xsd">
+</instantE1>

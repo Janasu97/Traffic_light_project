@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-12-19 03:16:53 by Eclipse SUMO netedit Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\networkGenerations\radwanska_crossing_act.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\networkGenerations\radwanska_crossing_act.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\networkGenerations\demand_17_18_veh_ped.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route edges="EM2 M2M" color="yellow" id="route_0"/>
+    <route edges="EM2 M2M1 M1W" color="yellow" id="route_1"/>
+    <route edges="NM M1S" color="yellow" id="route_10"/>
+    <route edges="NM M1M2 M2M" color="yellow" id="route_11"/>
+    <route edges="NM M1M2 M2E" color="yellow" id="route_12"/>
+    <route edges="SM2 M2M1 M1S" color="yellow" id="route_13"/>
+    <route edges="EM2 M2M1 M1S" color="yellow" id="route_2"/>
+    <route edges="SM2 M2E" color="yellow" id="route_3"/>
+    <route edges="SM2 M2M" color="yellow" id="route_4"/>
+    <route edges="SM2 M2M1 M1W" color="yellow" id="route_5"/>
+    <route edges="WM1 M1S" color="yellow" id="route_6"/>
+    <route edges="WM1 M1M2 M2E" color="yellow" id="route_7"/>
+    <route edges="WM1 M1M2 M2M" color="yellow" id="route_8"/>
+    <route edges="NM M1W" color="yellow" id="route_9"/>
+    <personFlow id="personFlow_0" begin="0.00" end="3600.00" probability="0.029166">
+        <walk edges="EM2 M2M1 M1W"/>
+    </personFlow>
+    <personFlow id="personFlow_1" begin="0.00" end="3600.00" probability="0.026388">
+        <walk edges="SM2 M2M"/>
+    </personFlow>
+    <personFlow id="personFlow_2" begin="0.00" end="3600.00" probability="0.029166">
+        <walk edges="WM1 M1M2 M2E"/>
+    </personFlow>
+    <personFlow id="personFlow_3" begin="0.00" end="3600.00" probability="0.026388">
+        <walk edges="NM M1S"/>
+    </personFlow>
+    <personFlow id="personFlow_4" begin="0.00" end="3600.00" probability="0.029166">
+        <walk edges="NM M2M1 EM2"/>
+    </personFlow>
+    <personFlow id="personFlow_5" begin="0.00" end="3600.00" probability="0.029166">
+        <walk edges="SM2 M1M2 WM1"/>
+    </personFlow>
+    <personFlow id="personFlow_6" begin="0.00" end="3600.00" probability="0.026388">
+        <walk edges="M1S NM"/>
+    </personFlow>
+    <personFlow id="personFlow_7" begin="0.00" end="3600.00" probability="0.026388">
+        <walk edges="M2M SM2"/>
+    </personFlow>
+    <flow id="flow_0" begin="0.00" route="route_0" end="3600.00" probability="0.024167"/>
+    <flow id="flow_1" begin="0.00" route="route_1" end="3600" probability="0.100556"/>
+    <flow id="flow_2" begin="0.00" route="route_2" end="3600" probability="0.061944"/>
+    <flow id="flow_3" begin="0.00" route="route_3" end="3600" probability="0.046389"/>
+    <flow id="flow_4" begin="0.00" route="route_4" end="3600" probability="0.132500"/>
+    <flow id="flow_5" begin="0.00" route="route_5" end="3600" probability="0.027777"/>
+    <flow id="flow_6" begin="0.00" route="route_13" end="3600" probability="0.011111"/>
+    <flow id="flow_7" begin="0.00" route="route_6" end="3600" probability="0.020556"/>
+    <flow id="flow_8" begin="0.00" route="route_7" end="3600" probability="0.046944"/>
+    <flow id="flow_9" begin="0.00" route="route_8" end="3600" probability="0.028056"/>
+    <flow id="flow_10" begin="0.00" route="route_9" end="3600" probability="0.040000"/>
+    <flow id="flow_11" begin="0.00" route="route_10" end="3600" probability="0.233889"/>
+    <flow id="flow_12" begin="0.00" route="route_11" end="3600" probability="0.022222"/>
+    <flow id="flow_13" begin="0.00" route="route_12" end="3600" probability="0.010000"/>
+</routes>

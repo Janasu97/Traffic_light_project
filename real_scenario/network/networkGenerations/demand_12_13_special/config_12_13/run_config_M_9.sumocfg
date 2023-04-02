@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-09-04 02:42:19 by Eclipse SUMO GUI Version 1.10.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\radwanska_crossing_act.net.xml"/>
+        <route-files value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\networkGenerations\demand_12_13_special\demand_12_13_M_9.xml"/>
+        <additional-files value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\additional.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\statistics/real_summary.xml"/>
+        <tripinfo-output value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\statistics/real_tripinfo.xml"/>
+        <person-summary-output value="D:\MASTER%20THESIS\Practical%20part\Networks\real_scenario\network\statistics/real_personsummary.xml"/>
+    </output>
+
+</configuration>
